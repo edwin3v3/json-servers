@@ -1,7 +1,7 @@
 {
   "name": "json-api",
   "scripts": {
-    "start": "json-server --watch db.json --port $PORT"
+    "server": "json-server --watch db.json --port $PORT"
   },
   "dependencies": {
     "json-server": "^0.17.3"
